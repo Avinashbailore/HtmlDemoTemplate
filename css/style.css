@@ -1,0 +1,152 @@
+/* Golbal CSS */
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font:normal 100% Arial;
+	font-family: 'Titillium Web', sans-serif;
+}
+img { 
+max-width: 100%; 
+height: auto; 
+width: auto\9; /* ie8 */ 
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+/* Structural CSS */
+#wrapper
+{
+		
+}
+#banner
+{
+	 background-color:#f3f3f3;
+
+	 border-top:1px solid #e2e2e2;
+	 border-bottom:1px solid #e2e2e2;
+}
+#content{
+	padding:15px;
+}
+.container
+{
+	width:auto;
+}
+
+/* header CSS */
+#header
+{
+	padding:15px;
+	overflow: hidden;
+}
+#logo
+{
+	text-align:center;
+	margin-bottom:15px
+}
+/* Menu CSS */
+#menu
+{
+
+
+}
+#menu-toggle
+{
+	background-color:#666;
+	padding:15px;
+	color:#fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.25em;
+	cursor:pointer;
+}
+#menu ul
+{
+display:none;
+}
+.menu-open #menu ul
+{
+	display: block;
+}
+#menu ul
+{
+
+}
+#menu li
+{
+border-bottom:1px solid #162c3b;
+}
+#menu li a
+{
+	padding:10px;
+	background-color:#b6d0e1;
+	display: block;
+	color:#162c3b;
+}
+/* Banner CSS */
+
+.bannerContent{
+padding:30px;
+	
+}
+.bannerContent h1,.bannerContent p{
+
+margin-bottom: 15px;
+
+}
+.bannerContent a{
+
+	background-color: #0099ff;
+	color:#fff;
+	font-size: 0.875em;
+	padding:5px 10px;
+	border-radius:5px;
+	margin-right:10px;
+}
+
+.bannerContent a+a{
+	background-color:#ff0000;
+}
+
+/* Content */
+.box-content
+{
+	padding:20px 15px;
+
+}
+.box-content h2
+{
+	margin:20px 0;
+	font-size: 2em;
+}
+
+@media (min-width: 768px) and (max-width:900px) 
+{
+
+	#logo{
+		float:left;
+		margin:0;
+	}
+	#menu-toggle{
+		float:right;
+	}
+	#menu ul
+	{
+	padding-top: 60px
+	}
+}
+@media (min-width: 901px)
+{
+
+	
+
+}
+
